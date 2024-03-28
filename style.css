@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    }
+
+body{
+margin: 0 auto;
+
+}
+
+#background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 120vh;
+  }
+  
+  #background video {
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+  }
+
+    
+  #background::after {
+    content: '';
+    width: inherit;
+    height:  inherit;
+    position: fixed;
+    inset: 0;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%); 
+  } 
+
+#redesocial {
+
+  
+
+    
+}
+
+
+
+
+ul{
+
+
+
+    
+
+}
+#Principal {
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#Principal h1{
+    color: chocolate;
+    font-family: sans-serif;
+    
+
+}
+#Principal p{
+  
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+#Artistas {
+font-style: italic;
+width: 30vw;
+height: 30vh;
+    display: flex;
+    padding: 0;
+    margin: 0 ;
+    
+     
+}
+
+
+#Artistas h2{
+
+color: chocolate;  
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#Artistas p{
+
+color: aliceblue;
+font-style: italic;
+
+}
+
+#Artistas img{
+    border-radius: 50%;
+
+
+
+
+}
+
+#crist{
+    float: right;
+    margin: 0 auto;
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    padding: 0;
+    
+    
+    
+
+    
+}
+#crist h2{
+    
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#crist p{
+color: aliceblue;
+font-style: italic;
+
+}
+#crist img{
+
+border-radius: 50%;
+
+}
+#maxuel img{
+    
+    border-radius: 50%;
+
+}
+#maxuel{
+    float: left;
+    margin: 0 auto;
+    width: 40vw; 
+    height: 30vh;
+    display: flex;
+    margin: 0;
+}
+#maxuel h2{
+
+    color: chocolate;
+    
+}
+
+#maxuel p{
+
+color: aliceblue;
+font-style: italic;
+}
+#kitan{
+    
+    margin: 0 auto;
+    width: 30vw; 
+    height: 25vh;
+    display: flex;
+    padding: 0;
+
+
+}
+#kitan img{
+    
+    border-radius: 50%;
+    
+}
+
+#kitan h2{
+color: chocolate;
+
+}
+#kitan p{
+
+color: aliceblue;
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
